@@ -9,7 +9,7 @@ Aplicación web en Python + Streamlit para preparar archivos TXT por lotes a par
 - Valida que cada RUC tenga exactamente 11 dígitos.
 - Reporta vacíos, inválidos y duplicados.
 - Permite eliminar duplicados conservando la primera aparición.
-- Divide los RUC válidos en lotes de máximo 200.
+- Divide los RUC válidos en lotes de máximo 100.
 - Genera `Batch_1.txt`, `Batch_2.txt`, etc.
 - Cada línea se genera como `RUC|` seguida de salto de línea.
 - Comprime todos los TXT en `BATCH_SUNAT.zip`.
@@ -48,7 +48,7 @@ streamlit run app.py
 10000396172|
 ```
 
-Cada TXT contiene como máximo 200 RUC y no incluye encabezado.
+Cada TXT contiene como máximo 100 RUC y no incluye encabezado.
 
 ## Nota
 

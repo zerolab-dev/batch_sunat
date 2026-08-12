@@ -3,7 +3,7 @@ Configuración general para la aplicación Generador Batch SUNAT.
 Centraliza constantes de negocio, nombres de salida y parámetros de interfaz.
 """
 
-TAMANO_BATCH: int = 200
+TAMANO_BATCH: int = 100
 LONGITUD_RUC: int = 11
 DELIMITADOR_SUNAT: str = "|"
 COLUMNA_RUC_DEFAULT: str = "RUC"
